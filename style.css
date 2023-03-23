@@ -1,0 +1,93 @@
+/* Обнуление */
+*,
+*,::before,
+*,::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+._container {
+    flex-direction: row;
+    max-width: 1570px;
+    margin: 0px auto;
+    padding: 0 50px;
+    box-sizing: content-box;
+}
+/* --------------MAIN------------------ */
+.main_window {
+    text-align: center;
+}
+.main_window__score {
+    padding: 0 280px 0 280px;
+}
+.main_window__score h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 155px;
+
+    margin-top: 76px;
+}
+
+.main_window__cash {
+    padding: 0 280px 0 280px;
+}
+.main_window__cash button {
+    width: 252px;
+    height: 252px;
+    margin-top: 91px;
+    border-radius: 200px;
+
+    background: #0D2FAA;
+    border: 8px solid #0035F1;
+    box-shadow: -8px 8px 26px rgba(2, 0, 116, 0.5);
+
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+}
+.main_window__cash button:hover{background: #000d3d;}
+.main_window__cash button:active {
+    background: #000d3d;
+    box-shadow: -4px 8px 26px rgba(2, 0, 116, 0.5);
+    transform: translateY(4px);
+}
