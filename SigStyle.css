@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@100&family=Rubik+Iso&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: linear-gradient(124.18deg, #92E5FF 7.64%, #000B46 93.72%);
+}
+
+.main__window {
+    display: flex;
+    width: 443px;
+    height: 615px;
+    font-family: 'Montserrat';
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: rgba(255, 255, 255, 0.63);
+    border-radius: 14px;
+}
+
+.head {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.enter {
+    display: flex;
+    width: 346px;
+    height: 50px;
+    margin-top: 51px;
+
+    background: #D9D9D9;
+    border: 1px solid #A2A2A2;
+    border-radius: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+:placeholder-shown {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.46);
+}
+
+.go {
+    width: 127px;
+    height: 127px;
+    border-radius: 100px;
+    margin-top: 80px;
+
+    background: #001274;
+    border: 3px solid #001EBE;
+    box-shadow: 4px 4px 8px rgba(0, 11, 70, 0.67);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
